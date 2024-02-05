@@ -10,9 +10,9 @@ app.use(express.json());
 
 app.use("/user",userRoute);
 
+// use your mongoose url
 
-
-mongoose.connect("mongodb+srv://sandeep46621:w5tqFtSvAoG8T5v2@cluster0.dmocucf.mongodb.net/Todo-res", {
+mongoose.connect("", {
     useNewUrlParser: false,
     useUnifiedTopology: true,
     // Other options...
